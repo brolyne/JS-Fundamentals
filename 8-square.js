@@ -1,3 +1,7 @@
+if(!parseInt(process.argv[2])){
+    console.log("Missing size");
+    return;
+}
 let count = parseInt(process.argv[2]);
 if(!process.argv[2]){
     console.log("Missing size");
