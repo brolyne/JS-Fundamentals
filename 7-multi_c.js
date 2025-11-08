@@ -4,6 +4,6 @@ if(!process.argv[2]){
     return;
 }
 let count = parseInt(process.argv[2]);
-for(let i=0;i<count;i++){
+for (let i=0;i<count;i++){
     console.log(word);
 }
